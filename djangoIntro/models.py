@@ -10,3 +10,9 @@ class Product(models.Model):
     price = models.FloatField()
     description = models.CharField(max_length=255)
     stock = models.IntegerField()
+
+class Product22(models.Model):
+    name = models.CharField(max_length=50)
+    price = models.FloatField()
+    description = models.CharField(max_length=255)
+    stock = models.IntegerField()
